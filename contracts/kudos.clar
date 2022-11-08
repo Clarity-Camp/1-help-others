@@ -17,7 +17,7 @@
 ;;
 
 ;; @function give-kudos-with-tip: user can give kudos to another user without tip
-;; 1. Any user can give kudos to another user by paying 1 STX to the user
+;; 1. Any user can give kudos to another user by paying 1 STX or PRICE to the contract owner
 ;; 2. Updates the count of kudos that user received
 ;; @param recipient:principal :: the user who you would want to tip
 ;; @response (ok bool) Return true when successful
@@ -26,7 +26,7 @@
 )
 
 ;; @function give-kudos-with-tip: user can give kudos to another user plus a tip
-;; 1. Any user can give kudos to another user by paying 1 STX to the user
+;; 1. Any user can give kudos to another user by paying 1 STX to  the contract owner
 ;; 2. Additional tip can be paid by the user to the recipient 
 ;; 3. Updates the count of kudos that user is getting
 ;; @param recipient:principal :: user you want to give kudos to
