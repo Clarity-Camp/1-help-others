@@ -1,4 +1,4 @@
-# 1-kudos
+# 1-help-others
 
 ## Description
 This contract is responsible for giving kudos and/or tips to other users for their contributions.
